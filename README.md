@@ -16,9 +16,9 @@ Various classification models were used both with undersampling and oversampling
 - CatBoost
 
 # Evaluation Metrics
-In this project to predict Airbnb property unlisting, I faced the challenge of working with an unbalanced dataset, where the number of properties that get unlisted is significantly smaller compared to those that remain listed. To effectively evaluate the performance of the predictive models, I employed several metrics tailored to handle this imbalance and ensure accurate predictions.
+In this project to predict Airbnb property unlisting, I faced the challenge of working with an unbalanced dataset, where the number of properties that get unlisted is significantly smaller compared to those that remain listed. To effectively evaluate the performance of the predictive models, I employed the F1 score, which is well-suited to handle class imbalance and ensure accurate predictions.
 
 ### F1 Score
-The F1 score is a critical metric for evaluating our models, particularly given the class imbalance in our dataset. Since the number of unlisted properties (positive class) is much lower than the listed properties (negative class), focusing solely on accuracy could be misleading.
+The F1 score is a critical metric for evaluating the models, particularly given the class imbalance in the dataset. Since the number of unlisted properties (positive class) is much lower than the listed properties (negative class), focusing solely on accuracy could be misleading.
 
 
